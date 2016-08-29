@@ -9,7 +9,7 @@ describe('myCode', function () {
     expect(myCode.allEven(badInput)).toBe(false);
   });
 
-  it('#allSameType', function () {
+  xit('#allSameType', function () {
     var goodInput = [1,2,3];
     expect(myCode.allSameType(goodInput)).toBe(true);
 
@@ -17,7 +17,7 @@ describe('myCode', function () {
     expect(myCode.allSameType(badInput)).toBe(false);
   });
 
-  it('#positiveMatrix', function () {
+  xit('#positiveMatrix', function () {
     var goodInput = [[1,2,3],
                      [4,5,6],
                      [7,8,9]];
@@ -29,10 +29,10 @@ describe('myCode', function () {
     expect(myCode.positiveMatrix(badInput)).toBe(false);
   });
 
-  it('#allSameVowels', function () {
+  xit('#allSameVowels', function () {
     var goodInput = ['amalgam', 'zoom'];
     expect(myCode.allSameVowels(goodInput)).toBe(true);
-    
+
     var badInput = ['zoom', 'oligopoly'];
     expect(myCode.allSameVowels(badInput)).toBe(false);
   });

@@ -5,7 +5,7 @@ module.exports = {
   lostCarcosa : lostCarcosa
 };
 
-// Check to see if any of the elements in the 
+// Check to see if any of the elements in the
 // array are numbers greater than 10.
 
 function anyGreaterThan10 (input) {

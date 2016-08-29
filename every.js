@@ -9,9 +9,10 @@ module.exports = {
 // are even numbers.
 
 function allEven (input) {
-  return input;
-};
-
+    return input.every(function(input){
+      return input %2 === 0; 
+    })
+}
 // Check to see if all elements in an array
 // are of the same type.
 
