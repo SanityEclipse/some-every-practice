@@ -9,7 +9,7 @@ describe('myCode', function () {
     expect(myCode.anyGreaterThan10(badInput)).toBe(false);
   });
 
-  xit('#longWord', function () {
+  it('#longWord', function () {
     var goodInput = ['democracy', 'aristocracy'];
     expect(myCode.longWord(goodInput)).toBe(true);
 
