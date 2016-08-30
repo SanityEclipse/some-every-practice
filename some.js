@@ -9,7 +9,9 @@ module.exports = {
 // array are numbers greater than 10.
 
 function anyGreaterThan10 (input) {
-  return input;
+  return input.some(function(input){
+    return input > 10;
+  });
 };
 
 // Check to see if any of the strings in

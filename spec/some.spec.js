@@ -1,7 +1,7 @@
 var myCode = require('../some');
 
 describe('myCode', function () {
-  xit('#anyGreaterThan10', function () {
+  it('#anyGreaterThan10', function () {
     var goodInput = [8,9,10,11];
     expect(myCode.anyGreaterThan10(goodInput)).toBe(true);
 
